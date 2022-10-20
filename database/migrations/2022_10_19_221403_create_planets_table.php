@@ -19,6 +19,7 @@ class CreatePlanetsTable extends Migration
             $table->string('english_name');
             $table->integer('radius');
             $table->integer('weight');
+            $table->timestamps();
         });
     }
 
